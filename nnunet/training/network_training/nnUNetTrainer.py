@@ -42,7 +42,7 @@ from nnunet.training.network_training.network_trainer import NetworkTrainer
 from nnunet.utilities.nd_softmax import softmax_helper
 from nnunet.utilities.tensor_utilities import sum_tensor
 
-matplotlib.use("agg")
+#matplotlib.use("agg")
 
 
 class nnUNetTrainer(NetworkTrainer):
